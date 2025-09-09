@@ -1,0 +1,280 @@
+[03-Sep-2025 14:47:45 UTC] Automatic updates starting...
+[03-Sep-2025 14:47:47 UTC] Automatic updates complete.
+[03-Sep-2025 15:34:26 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-customize-widgets.php on line 926
+[03-Sep-2025 15:34:26 UTC] PHP Stack trace:
+[03-Sep-2025 15:34:26 UTC] PHP   1. {main}() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-admin\customize.php:0
+[03-Sep-2025 15:34:26 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-admin\customize.php:306
+[03-Sep-2025 15:34:26 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[03-Sep-2025 15:34:26 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[03-Sep-2025 15:34:26 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[03-Sep-2025 15:39:11 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-customize-widgets.php on line 926
+[03-Sep-2025 15:39:11 UTC] PHP Stack trace:
+[03-Sep-2025 15:39:11 UTC] PHP   1. {main}() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-admin\customize.php:0
+[03-Sep-2025 15:39:11 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-admin\customize.php:306
+[03-Sep-2025 15:39:11 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[03-Sep-2025 15:39:11 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[03-Sep-2025 15:39:11 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[03-Sep-2025 17:03:17 UTC] Automatic updates starting...
+[03-Sep-2025 17:03:18 UTC] Automatic updates complete.
+[03-Sep-2025 17:26:59 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\pablo\Local Sites\decoartespacl\app\public/wp-content/themes/twentytwentyfive/assets/css/style-bundle.css in C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\functions.php on line 12
+[03-Sep-2025 17:26:59 UTC] PHP Stack trace:
+[03-Sep-2025 17:26:59 UTC] PHP   1. {main}() C:\Users\pablo\Local Sites\decoartespacl\app\public\index.php:0
+[03-Sep-2025 17:26:59 UTC] PHP   2. require() C:\Users\pablo\Local Sites\decoartespacl\app\public\index.php:17
+[03-Sep-2025 17:26:59 UTC] PHP   3. require_once() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-blog-header.php:19
+[03-Sep-2025 17:26:59 UTC] PHP   4. include() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template-loader.php:106
+[03-Sep-2025 17:26:59 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\index.php:2
+[03-Sep-2025 17:26:59 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\general-template.php:48
+[03-Sep-2025 17:26:59 UTC] PHP   7. load_template($_template_file = 'C:\\Users\\pablo\\Local Sites\\decoartespacl\\app\\public/wp-content/themes/decoarte-theme/header.php', $load_once = TRUE, $args = []) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template.php:745
+[03-Sep-2025 17:26:59 UTC] PHP   8. require_once() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template.php:810
+[03-Sep-2025 17:26:59 UTC] PHP   9. wp_head() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\header.php:7
+[03-Sep-2025 17:26:59 UTC] PHP  10. do_action($hook_name = 'wp_head') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\general-template.php:3192
+[03-Sep-2025 17:26:59 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[03-Sep-2025 17:26:59 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[03-Sep-2025 17:26:59 UTC] PHP  13. wp_enqueue_scripts('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[03-Sep-2025 17:26:59 UTC] PHP  14. do_action($hook_name = 'wp_enqueue_scripts') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\script-loader.php:2299
+[03-Sep-2025 17:26:59 UTC] PHP  15. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[03-Sep-2025 17:26:59 UTC] PHP  16. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[03-Sep-2025 17:26:59 UTC] PHP  17. decoarte_enqueue_styles('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[03-Sep-2025 17:26:59 UTC] PHP  18. filemtime($filename = 'C:\\Users\\pablo\\Local Sites\\decoartespacl\\app\\public/wp-content/themes/twentytwentyfive/assets/css/style-bundle.css') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\functions.php:12
+[03-Sep-2025 17:27:02 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\pablo\Local Sites\decoartespacl\app\public/wp-content/themes/twentytwentyfive/assets/css/style-bundle.css in C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\functions.php on line 12
+[03-Sep-2025 17:27:02 UTC] PHP Stack trace:
+[03-Sep-2025 17:27:02 UTC] PHP   1. {main}() C:\Users\pablo\Local Sites\decoartespacl\app\public\index.php:0
+[03-Sep-2025 17:27:02 UTC] PHP   2. require() C:\Users\pablo\Local Sites\decoartespacl\app\public\index.php:17
+[03-Sep-2025 17:27:02 UTC] PHP   3. require_once() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-blog-header.php:19
+[03-Sep-2025 17:27:02 UTC] PHP   4. include() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template-loader.php:106
+[03-Sep-2025 17:27:02 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\index.php:2
+[03-Sep-2025 17:27:02 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\general-template.php:48
+[03-Sep-2025 17:27:02 UTC] PHP   7. load_template($_template_file = 'C:\\Users\\pablo\\Local Sites\\decoartespacl\\app\\public/wp-content/themes/decoarte-theme/header.php', $load_once = TRUE, $args = []) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template.php:745
+[03-Sep-2025 17:27:02 UTC] PHP   8. require_once() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template.php:810
+[03-Sep-2025 17:27:02 UTC] PHP   9. wp_head() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\header.php:7
+[03-Sep-2025 17:27:02 UTC] PHP  10. do_action($hook_name = 'wp_head') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\general-template.php:3192
+[03-Sep-2025 17:27:02 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[03-Sep-2025 17:27:02 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[03-Sep-2025 17:27:02 UTC] PHP  13. wp_enqueue_scripts('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[03-Sep-2025 17:27:02 UTC] PHP  14. do_action($hook_name = 'wp_enqueue_scripts') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\script-loader.php:2299
+[03-Sep-2025 17:27:02 UTC] PHP  15. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[03-Sep-2025 17:27:02 UTC] PHP  16. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[03-Sep-2025 17:27:02 UTC] PHP  17. decoarte_enqueue_styles('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[03-Sep-2025 17:27:02 UTC] PHP  18. filemtime($filename = 'C:\\Users\\pablo\\Local Sites\\decoartespacl\\app\\public/wp-content/themes/twentytwentyfive/assets/css/style-bundle.css') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\functions.php:12
+[03-Sep-2025 17:27:02 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\pablo\Local Sites\decoartespacl\app\public/wp-content/themes/twentytwentyfive/assets/css/style-bundle.css in C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\functions.php on line 12
+[03-Sep-2025 17:27:02 UTC] PHP Stack trace:
+[03-Sep-2025 17:27:02 UTC] PHP   1. {main}() C:\Users\pablo\Local Sites\decoartespacl\app\public\index.php:0
+[03-Sep-2025 17:27:02 UTC] PHP   2. require() C:\Users\pablo\Local Sites\decoartespacl\app\public\index.php:17
+[03-Sep-2025 17:27:02 UTC] PHP   3. require_once() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-blog-header.php:19
+[03-Sep-2025 17:27:02 UTC] PHP   4. include() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template-loader.php:106
+[03-Sep-2025 17:27:02 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\index.php:2
+[03-Sep-2025 17:27:02 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\general-template.php:48
+[03-Sep-2025 17:27:02 UTC] PHP   7. load_template($_template_file = 'C:\\Users\\pablo\\Local Sites\\decoartespacl\\app\\public/wp-content/themes/decoarte-theme/header.php', $load_once = TRUE, $args = []) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template.php:745
+[03-Sep-2025 17:27:02 UTC] PHP   8. require_once() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template.php:810
+[03-Sep-2025 17:27:02 UTC] PHP   9. wp_head() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\header.php:7
+[03-Sep-2025 17:27:02 UTC] PHP  10. do_action($hook_name = 'wp_head') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\general-template.php:3192
+[03-Sep-2025 17:27:02 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[03-Sep-2025 17:27:02 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[03-Sep-2025 17:27:02 UTC] PHP  13. wp_enqueue_scripts('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[03-Sep-2025 17:27:02 UTC] PHP  14. do_action($hook_name = 'wp_enqueue_scripts') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\script-loader.php:2299
+[03-Sep-2025 17:27:02 UTC] PHP  15. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[03-Sep-2025 17:27:02 UTC] PHP  16. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[03-Sep-2025 17:27:02 UTC] PHP  17. decoarte_enqueue_styles('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[03-Sep-2025 17:27:02 UTC] PHP  18. filemtime($filename = 'C:\\Users\\pablo\\Local Sites\\decoartespacl\\app\\public/wp-content/themes/twentytwentyfive/assets/css/style-bundle.css') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\functions.php:12
+[03-Sep-2025 17:33:45 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\pablo\Local Sites\decoartespacl\app\public/wp-content/themes/twentytwentyfive/assets/css/style-bundle.css in C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\functions.php on line 12
+[03-Sep-2025 17:33:45 UTC] PHP Stack trace:
+[03-Sep-2025 17:33:45 UTC] PHP   1. {main}() C:\Users\pablo\Local Sites\decoartespacl\app\public\index.php:0
+[03-Sep-2025 17:33:45 UTC] PHP   2. require() C:\Users\pablo\Local Sites\decoartespacl\app\public\index.php:17
+[03-Sep-2025 17:33:45 UTC] PHP   3. require_once() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-blog-header.php:19
+[03-Sep-2025 17:33:45 UTC] PHP   4. include() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template-loader.php:106
+[03-Sep-2025 17:33:45 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\index.php:2
+[03-Sep-2025 17:33:45 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\general-template.php:48
+[03-Sep-2025 17:33:45 UTC] PHP   7. load_template($_template_file = 'C:\\Users\\pablo\\Local Sites\\decoartespacl\\app\\public/wp-content/themes/decoarte-theme/header.php', $load_once = TRUE, $args = []) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template.php:745
+[03-Sep-2025 17:33:45 UTC] PHP   8. require_once() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template.php:810
+[03-Sep-2025 17:33:45 UTC] PHP   9. wp_head() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\header.php:7
+[03-Sep-2025 17:33:45 UTC] PHP  10. do_action($hook_name = 'wp_head') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\general-template.php:3192
+[03-Sep-2025 17:33:45 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[03-Sep-2025 17:33:45 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[03-Sep-2025 17:33:45 UTC] PHP  13. wp_enqueue_scripts('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[03-Sep-2025 17:33:45 UTC] PHP  14. do_action($hook_name = 'wp_enqueue_scripts') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\script-loader.php:2299
+[03-Sep-2025 17:33:45 UTC] PHP  15. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[03-Sep-2025 17:33:45 UTC] PHP  16. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[03-Sep-2025 17:33:45 UTC] PHP  17. decoarte_enqueue_styles('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[03-Sep-2025 17:33:45 UTC] PHP  18. filemtime($filename = 'C:\\Users\\pablo\\Local Sites\\decoartespacl\\app\\public/wp-content/themes/twentytwentyfive/assets/css/style-bundle.css') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\functions.php:12
+[03-Sep-2025 17:34:03 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\pablo\Local Sites\decoartespacl\app\public/wp-content/themes/twentytwentyfive/assets/css/style-bundle.css in C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\functions.php on line 12
+[03-Sep-2025 17:34:03 UTC] PHP Stack trace:
+[03-Sep-2025 17:34:03 UTC] PHP   1. {main}() C:\Users\pablo\Local Sites\decoartespacl\app\public\index.php:0
+[03-Sep-2025 17:34:03 UTC] PHP   2. require() C:\Users\pablo\Local Sites\decoartespacl\app\public\index.php:17
+[03-Sep-2025 17:34:03 UTC] PHP   3. require_once() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-blog-header.php:19
+[03-Sep-2025 17:34:03 UTC] PHP   4. include() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template-loader.php:106
+[03-Sep-2025 17:34:03 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\index.php:2
+[03-Sep-2025 17:34:03 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\general-template.php:48
+[03-Sep-2025 17:34:03 UTC] PHP   7. load_template($_template_file = 'C:\\Users\\pablo\\Local Sites\\decoartespacl\\app\\public/wp-content/themes/decoarte-theme/header.php', $load_once = TRUE, $args = []) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template.php:745
+[03-Sep-2025 17:34:03 UTC] PHP   8. require_once() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template.php:810
+[03-Sep-2025 17:34:03 UTC] PHP   9. wp_head() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\header.php:7
+[03-Sep-2025 17:34:03 UTC] PHP  10. do_action($hook_name = 'wp_head') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\general-template.php:3192
+[03-Sep-2025 17:34:03 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[03-Sep-2025 17:34:03 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[03-Sep-2025 17:34:03 UTC] PHP  13. wp_enqueue_scripts('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[03-Sep-2025 17:34:03 UTC] PHP  14. do_action($hook_name = 'wp_enqueue_scripts') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\script-loader.php:2299
+[03-Sep-2025 17:34:03 UTC] PHP  15. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[03-Sep-2025 17:34:03 UTC] PHP  16. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[03-Sep-2025 17:34:03 UTC] PHP  17. decoarte_enqueue_styles('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[03-Sep-2025 17:34:03 UTC] PHP  18. filemtime($filename = 'C:\\Users\\pablo\\Local Sites\\decoartespacl\\app\\public/wp-content/themes/twentytwentyfive/assets/css/style-bundle.css') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\functions.php:12
+[03-Sep-2025 17:34:07 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\pablo\Local Sites\decoartespacl\app\public/wp-content/themes/twentytwentyfive/assets/css/style-bundle.css in C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\functions.php on line 12
+[03-Sep-2025 17:34:07 UTC] PHP Stack trace:
+[03-Sep-2025 17:34:07 UTC] PHP   1. {main}() C:\Users\pablo\Local Sites\decoartespacl\app\public\index.php:0
+[03-Sep-2025 17:34:07 UTC] PHP   2. require() C:\Users\pablo\Local Sites\decoartespacl\app\public\index.php:17
+[03-Sep-2025 17:34:07 UTC] PHP   3. require_once() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-blog-header.php:19
+[03-Sep-2025 17:34:07 UTC] PHP   4. include() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template-loader.php:106
+[03-Sep-2025 17:34:07 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\index.php:2
+[03-Sep-2025 17:34:07 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\general-template.php:48
+[03-Sep-2025 17:34:07 UTC] PHP   7. load_template($_template_file = 'C:\\Users\\pablo\\Local Sites\\decoartespacl\\app\\public/wp-content/themes/decoarte-theme/header.php', $load_once = TRUE, $args = []) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template.php:745
+[03-Sep-2025 17:34:07 UTC] PHP   8. require_once() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template.php:810
+[03-Sep-2025 17:34:07 UTC] PHP   9. wp_head() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\header.php:7
+[03-Sep-2025 17:34:07 UTC] PHP  10. do_action($hook_name = 'wp_head') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\general-template.php:3192
+[03-Sep-2025 17:34:07 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[03-Sep-2025 17:34:07 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[03-Sep-2025 17:34:07 UTC] PHP  13. wp_enqueue_scripts('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[03-Sep-2025 17:34:07 UTC] PHP  14. do_action($hook_name = 'wp_enqueue_scripts') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\script-loader.php:2299
+[03-Sep-2025 17:34:07 UTC] PHP  15. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[03-Sep-2025 17:34:07 UTC] PHP  16. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[03-Sep-2025 17:34:07 UTC] PHP  17. decoarte_enqueue_styles('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[03-Sep-2025 17:34:07 UTC] PHP  18. filemtime($filename = 'C:\\Users\\pablo\\Local Sites\\decoartespacl\\app\\public/wp-content/themes/twentytwentyfive/assets/css/style-bundle.css') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\functions.php:12
+[03-Sep-2025 17:34:10 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\pablo\Local Sites\decoartespacl\app\public/wp-content/themes/twentytwentyfive/assets/css/style-bundle.css in C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\functions.php on line 12
+[03-Sep-2025 17:34:10 UTC] PHP Stack trace:
+[03-Sep-2025 17:34:10 UTC] PHP   1. {main}() C:\Users\pablo\Local Sites\decoartespacl\app\public\index.php:0
+[03-Sep-2025 17:34:10 UTC] PHP   2. require() C:\Users\pablo\Local Sites\decoartespacl\app\public\index.php:17
+[03-Sep-2025 17:34:10 UTC] PHP   3. require_once() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-blog-header.php:19
+[03-Sep-2025 17:34:10 UTC] PHP   4. include() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template-loader.php:106
+[03-Sep-2025 17:34:10 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\index.php:2
+[03-Sep-2025 17:34:10 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\general-template.php:48
+[03-Sep-2025 17:34:10 UTC] PHP   7. load_template($_template_file = 'C:\\Users\\pablo\\Local Sites\\decoartespacl\\app\\public/wp-content/themes/decoarte-theme/header.php', $load_once = TRUE, $args = []) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template.php:745
+[03-Sep-2025 17:34:10 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\pablo\Local Sites\decoartespacl\app\public/wp-content/themes/twentytwentyfive/assets/css/style-bundle.css in C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\functions.php on line 12
+[03-Sep-2025 17:34:10 UTC] PHP   8. require_once() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template.php:810
+[03-Sep-2025 17:34:10 UTC] PHP Stack trace:
+[03-Sep-2025 17:34:10 UTC] PHP   9. wp_head() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\header.php:7
+[03-Sep-2025 17:34:10 UTC] PHP  10. do_action($hook_name = 'wp_head') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\general-template.php:3192
+[03-Sep-2025 17:34:10 UTC] PHP   1. {main}() C:\Users\pablo\Local Sites\decoartespacl\app\public\index.php:0
+[03-Sep-2025 17:34:10 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[03-Sep-2025 17:34:10 UTC] PHP   2. require() C:\Users\pablo\Local Sites\decoartespacl\app\public\index.php:17
+[03-Sep-2025 17:34:10 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[03-Sep-2025 17:34:10 UTC] PHP   3. require_once() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-blog-header.php:19
+[03-Sep-2025 17:34:10 UTC] PHP  13. wp_enqueue_scripts('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[03-Sep-2025 17:34:10 UTC] PHP   4. include() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template-loader.php:106
+[03-Sep-2025 17:34:10 UTC] PHP  14. do_action($hook_name = 'wp_enqueue_scripts') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\script-loader.php:2299
+[03-Sep-2025 17:34:10 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\index.php:2
+[03-Sep-2025 17:34:10 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\general-template.php:48
+[03-Sep-2025 17:34:10 UTC] PHP  15. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[03-Sep-2025 17:34:10 UTC] PHP   7. load_template($_template_file = 'C:\\Users\\pablo\\Local Sites\\decoartespacl\\app\\public/wp-content/themes/decoarte-theme/header.php', $load_once = TRUE, $args = []) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template.php:745
+[03-Sep-2025 17:34:10 UTC] PHP   8. require_once() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template.php:810
+[03-Sep-2025 17:34:10 UTC] PHP  16. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[03-Sep-2025 17:34:10 UTC] PHP   9. wp_head() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\header.php:7
+[03-Sep-2025 17:34:10 UTC] PHP  17. decoarte_enqueue_styles('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[03-Sep-2025 17:34:10 UTC] PHP  18. filemtime($filename = 'C:\\Users\\pablo\\Local Sites\\decoartespacl\\app\\public/wp-content/themes/twentytwentyfive/assets/css/style-bundle.css') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\functions.php:12
+[03-Sep-2025 17:34:10 UTC] PHP  10. do_action($hook_name = 'wp_head') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\general-template.php:3192
+[03-Sep-2025 17:34:10 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[03-Sep-2025 17:34:10 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[03-Sep-2025 17:34:10 UTC] PHP  13. wp_enqueue_scripts('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[03-Sep-2025 17:34:10 UTC] PHP  14. do_action($hook_name = 'wp_enqueue_scripts') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\script-loader.php:2299
+[03-Sep-2025 17:34:10 UTC] PHP  15. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[03-Sep-2025 17:34:10 UTC] PHP  16. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[03-Sep-2025 17:34:10 UTC] PHP  17. decoarte_enqueue_styles('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[03-Sep-2025 17:34:10 UTC] PHP  18. filemtime($filename = 'C:\\Users\\pablo\\Local Sites\\decoartespacl\\app\\public/wp-content/themes/twentytwentyfive/assets/css/style-bundle.css') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\functions.php:12
+[03-Sep-2025 17:39:16 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\pablo\Local Sites\decoartespacl\app\public/wp-content/themes/twentytwentyfive/assets/css/style-bundle.css in C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\functions.php on line 12
+[03-Sep-2025 17:39:16 UTC] PHP Stack trace:
+[03-Sep-2025 17:39:16 UTC] PHP   1. {main}() C:\Users\pablo\Local Sites\decoartespacl\app\public\index.php:0
+[03-Sep-2025 17:39:16 UTC] PHP   2. require() C:\Users\pablo\Local Sites\decoartespacl\app\public\index.php:17
+[03-Sep-2025 17:39:16 UTC] PHP   3. require_once() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-blog-header.php:19
+[03-Sep-2025 17:39:16 UTC] PHP   4. include() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template-loader.php:106
+[03-Sep-2025 17:39:16 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\index.php:2
+[03-Sep-2025 17:39:16 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\general-template.php:48
+[03-Sep-2025 17:39:16 UTC] PHP   7. load_template($_template_file = 'C:\\Users\\pablo\\Local Sites\\decoartespacl\\app\\public/wp-content/themes/decoarte-theme/header.php', $load_once = TRUE, $args = []) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template.php:745
+[03-Sep-2025 17:39:16 UTC] PHP   8. require_once() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template.php:810
+[03-Sep-2025 17:39:16 UTC] PHP   9. wp_head() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\header.php:7
+[03-Sep-2025 17:39:16 UTC] PHP  10. do_action($hook_name = 'wp_head') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\general-template.php:3192
+[03-Sep-2025 17:39:16 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[03-Sep-2025 17:39:16 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[03-Sep-2025 17:39:16 UTC] PHP  13. wp_enqueue_scripts('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[03-Sep-2025 17:39:16 UTC] PHP  14. do_action($hook_name = 'wp_enqueue_scripts') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\script-loader.php:2299
+[03-Sep-2025 17:39:16 UTC] PHP  15. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[03-Sep-2025 17:39:16 UTC] PHP  16. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[03-Sep-2025 17:39:16 UTC] PHP  17. decoarte_enqueue_styles('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[03-Sep-2025 17:39:16 UTC] PHP  18. filemtime($filename = 'C:\\Users\\pablo\\Local Sites\\decoartespacl\\app\\public/wp-content/themes/twentytwentyfive/assets/css/style-bundle.css') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\functions.php:12
+[03-Sep-2025 17:40:26 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-customize-widgets.php on line 926
+[03-Sep-2025 17:40:26 UTC] PHP Stack trace:
+[03-Sep-2025 17:40:26 UTC] PHP   1. {main}() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-admin\customize.php:0
+[03-Sep-2025 17:40:26 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-admin\customize.php:306
+[03-Sep-2025 17:40:26 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[03-Sep-2025 17:40:26 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[03-Sep-2025 17:40:26 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[03-Sep-2025 18:40:18 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\pablo\Local Sites\decoartespacl\app\public/wp-content/themes/decoarte-theme/assets/css/style-bundle.css in C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\functions.php on line 12
+[03-Sep-2025 18:40:18 UTC] PHP Stack trace:
+[03-Sep-2025 18:40:18 UTC] PHP   1. {main}() C:\Users\pablo\Local Sites\decoartespacl\app\public\index.php:0
+[03-Sep-2025 18:40:18 UTC] PHP   2. require() C:\Users\pablo\Local Sites\decoartespacl\app\public\index.php:17
+[03-Sep-2025 18:40:18 UTC] PHP   3. require_once() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-blog-header.php:19
+[03-Sep-2025 18:40:18 UTC] PHP   4. include() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template-loader.php:106
+[03-Sep-2025 18:40:18 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\index.php:2
+[03-Sep-2025 18:40:18 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\general-template.php:48
+[03-Sep-2025 18:40:18 UTC] PHP   7. load_template($_template_file = 'C:\\Users\\pablo\\Local Sites\\decoartespacl\\app\\public/wp-content/themes/decoarte-theme/header.php', $load_once = TRUE, $args = []) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template.php:745
+[03-Sep-2025 18:40:18 UTC] PHP   8. require_once() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template.php:810
+[03-Sep-2025 18:40:18 UTC] PHP   9. wp_head() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\header.php:7
+[03-Sep-2025 18:40:18 UTC] PHP  10. do_action($hook_name = 'wp_head') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\general-template.php:3192
+[03-Sep-2025 18:40:18 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[03-Sep-2025 18:40:18 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[03-Sep-2025 18:40:18 UTC] PHP  13. wp_enqueue_scripts('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[03-Sep-2025 18:40:18 UTC] PHP  14. do_action($hook_name = 'wp_enqueue_scripts') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\script-loader.php:2299
+[03-Sep-2025 18:40:18 UTC] PHP  15. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[03-Sep-2025 18:40:18 UTC] PHP  16. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[03-Sep-2025 18:40:18 UTC] PHP  17. decoarte_enqueue_styles('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[03-Sep-2025 18:40:18 UTC] PHP  18. filemtime($filename = 'C:\\Users\\pablo\\Local Sites\\decoartespacl\\app\\public/wp-content/themes/decoarte-theme/assets/css/style-bundle.css') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\functions.php:12
+[03-Sep-2025 18:40:20 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\pablo\Local Sites\decoartespacl\app\public/wp-content/themes/decoarte-theme/assets/css/style-bundle.css in C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\functions.php on line 12
+[03-Sep-2025 18:40:20 UTC] PHP Stack trace:
+[03-Sep-2025 18:40:20 UTC] PHP   1. {main}() C:\Users\pablo\Local Sites\decoartespacl\app\public\index.php:0
+[03-Sep-2025 18:40:20 UTC] PHP   2. require() C:\Users\pablo\Local Sites\decoartespacl\app\public\index.php:17
+[03-Sep-2025 18:40:20 UTC] PHP   3. require_once() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-blog-header.php:19
+[03-Sep-2025 18:40:20 UTC] PHP   4. include() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template-loader.php:106
+[03-Sep-2025 18:40:20 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\index.php:2
+[03-Sep-2025 18:40:20 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\general-template.php:48
+[03-Sep-2025 18:40:20 UTC] PHP   7. load_template($_template_file = 'C:\\Users\\pablo\\Local Sites\\decoartespacl\\app\\public/wp-content/themes/decoarte-theme/header.php', $load_once = TRUE, $args = []) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template.php:745
+[03-Sep-2025 18:40:20 UTC] PHP   8. require_once() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template.php:810
+[03-Sep-2025 18:40:20 UTC] PHP   9. wp_head() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\header.php:7
+[03-Sep-2025 18:40:20 UTC] PHP  10. do_action($hook_name = 'wp_head') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\general-template.php:3192
+[03-Sep-2025 18:40:20 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[03-Sep-2025 18:40:20 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[03-Sep-2025 18:40:20 UTC] PHP  13. wp_enqueue_scripts('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[03-Sep-2025 18:40:20 UTC] PHP  14. do_action($hook_name = 'wp_enqueue_scripts') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\script-loader.php:2299
+[03-Sep-2025 18:40:20 UTC] PHP  15. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[03-Sep-2025 18:40:20 UTC] PHP  16. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[03-Sep-2025 18:40:20 UTC] PHP  17. decoarte_enqueue_styles('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[03-Sep-2025 18:40:20 UTC] PHP  18. filemtime($filename = 'C:\\Users\\pablo\\Local Sites\\decoartespacl\\app\\public/wp-content/themes/decoarte-theme/assets/css/style-bundle.css') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\functions.php:12
+[03-Sep-2025 18:40:20 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\pablo\Local Sites\decoartespacl\app\public/wp-content/themes/decoarte-theme/assets/css/style-bundle.css in C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\functions.php on line 12
+[03-Sep-2025 18:40:20 UTC] PHP Stack trace:
+[03-Sep-2025 18:40:20 UTC] PHP   1. {main}() C:\Users\pablo\Local Sites\decoartespacl\app\public\index.php:0
+[03-Sep-2025 18:40:20 UTC] PHP   2. require() C:\Users\pablo\Local Sites\decoartespacl\app\public\index.php:17
+[03-Sep-2025 18:40:20 UTC] PHP   3. require_once() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-blog-header.php:19
+[03-Sep-2025 18:40:20 UTC] PHP   4. include() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template-loader.php:106
+[03-Sep-2025 18:40:20 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\index.php:2
+[03-Sep-2025 18:40:20 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\general-template.php:48
+[03-Sep-2025 18:40:20 UTC] PHP   7. load_template($_template_file = 'C:\\Users\\pablo\\Local Sites\\decoartespacl\\app\\public/wp-content/themes/decoarte-theme/header.php', $load_once = TRUE, $args = []) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template.php:745
+[03-Sep-2025 18:40:20 UTC] PHP   8. require_once() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\template.php:810
+[03-Sep-2025 18:40:20 UTC] PHP   9. wp_head() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\header.php:7
+[03-Sep-2025 18:40:20 UTC] PHP  10. do_action($hook_name = 'wp_head') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\general-template.php:3192
+[03-Sep-2025 18:40:20 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[03-Sep-2025 18:40:20 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[03-Sep-2025 18:40:20 UTC] PHP  13. wp_enqueue_scripts('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[03-Sep-2025 18:40:20 UTC] PHP  14. do_action($hook_name = 'wp_enqueue_scripts') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\script-loader.php:2299
+[03-Sep-2025 18:40:20 UTC] PHP  15. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[03-Sep-2025 18:40:20 UTC] PHP  16. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[03-Sep-2025 18:40:20 UTC] PHP  17. decoarte_enqueue_styles('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[03-Sep-2025 18:40:20 UTC] PHP  18. filemtime($filename = 'C:\\Users\\pablo\\Local Sites\\decoartespacl\\app\\public/wp-content/themes/decoarte-theme/assets/css/style-bundle.css') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-content\themes\decoarte-theme\functions.php:12
+[04-Sep-2025 16:36:56 UTC] WordPress database error Table 'local.wp_sbi_feeds' doesn't exist for query SELECT COUNT(*) FROM wp_sbi_feeds made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, sb_instagram_feed_init, InstagramFeed\Admin\SBI_Callout->__construct, InstagramFeed\Admin\SBI_Callout::get_callout_plugins_list, InstagramFeed\Admin\SBI_Callout::feeds_number
+[04-Sep-2025 16:36:56 UTC] WordPress database error Table 'local.wp_sbi_feeds' doesn't exist for query SELECT COUNT(*) FROM wp_sbi_feeds made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, sb_instagram_feed_init, InstagramFeed\Admin\SBI_Callout->__construct, InstagramFeed\Admin\SBI_Callout::should_show_callout, InstagramFeed\Admin\SBI_Callout::get_callout_plugins_list, InstagramFeed\Admin\SBI_Callout::feeds_number
+[04-Sep-2025 17:07:46 UTC] Automatic updates starting...
+[04-Sep-2025 17:07:46 UTC] Automatic updates complete.
+[04-Sep-2025 19:42:10 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-customize-widgets.php on line 926
+[04-Sep-2025 19:42:10 UTC] PHP Stack trace:
+[04-Sep-2025 19:42:10 UTC] PHP   1. {main}() C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-admin\customize.php:0
+[04-Sep-2025 19:42:10 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-admin\customize.php:306
+[04-Sep-2025 19:42:10 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\plugin.php:517
+[04-Sep-2025 19:42:10 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:348
+[04-Sep-2025 19:42:10 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') C:\Users\pablo\Local Sites\decoartespacl\app\public\wp-includes\class-wp-hook.php:324
+[08-Sep-2025 13:52:24 UTC] Automatic updates starting...
+[08-Sep-2025 13:52:25 UTC] Automatic updates complete.
+[08-Sep-2025 18:40:21 UTC] Automatic updates starting...
+[08-Sep-2025 18:40:22 UTC] Automatic updates complete.
